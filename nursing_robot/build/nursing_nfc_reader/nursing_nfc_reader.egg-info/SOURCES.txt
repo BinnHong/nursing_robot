@@ -1,0 +1,17 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/PKG-INFO
+../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt
+../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/dependency_links.txt
+../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/entry_points.txt
+../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/requires.txt
+../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/top_level.txt
+../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/zip-safe
+nursing_nfc_reader/__init__.py
+nursing_nfc_reader/nfc_reader.py
+resource/nursing_nfc_reader
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

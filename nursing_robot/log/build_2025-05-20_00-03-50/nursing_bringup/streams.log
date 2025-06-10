@@ -1,0 +1,35 @@
+[4.700s] Invoking command in '/home/jetson/nursing_yee/src/nursing_bringup': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_bringup build --build-base /home/jetson/nursing_yee/build/nursing_bringup/build install --record /home/jetson/nursing_yee/build/nursing_bringup/install.log --install-scripts $base/lib/nursing_bringup --single-version-externally-managed install_data
+[5.871s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.871s]   warnings.warn(
+[6.020s] running egg_info
+[6.023s] creating ../../build/nursing_bringup/nursing_bringup.egg-info
+[6.023s] writing ../../build/nursing_bringup/nursing_bringup.egg-info/PKG-INFO
+[6.026s] writing dependency_links to ../../build/nursing_bringup/nursing_bringup.egg-info/dependency_links.txt
+[6.026s] writing entry points to ../../build/nursing_bringup/nursing_bringup.egg-info/entry_points.txt
+[6.027s] writing requirements to ../../build/nursing_bringup/nursing_bringup.egg-info/requires.txt
+[6.027s] writing top-level names to ../../build/nursing_bringup/nursing_bringup.egg-info/top_level.txt
+[6.033s] writing manifest file '../../build/nursing_bringup/nursing_bringup.egg-info/SOURCES.txt'
+[6.040s] reading manifest file '../../build/nursing_bringup/nursing_bringup.egg-info/SOURCES.txt'
+[6.043s] writing manifest file '../../build/nursing_bringup/nursing_bringup.egg-info/SOURCES.txt'
+[6.045s] running build
+[6.045s] running build_py
+[6.046s] creating /home/jetson/nursing_yee/build/nursing_bringup/build
+[6.046s] creating /home/jetson/nursing_yee/build/nursing_bringup/build/lib
+[6.046s] creating /home/jetson/nursing_yee/build/nursing_bringup/build/lib/nursing_bringup
+[6.047s] copying nursing_bringup/__init__.py -> /home/jetson/nursing_yee/build/nursing_bringup/build/lib/nursing_bringup
+[6.047s] running install
+[6.049s] running install_lib
+[6.053s] creating /home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages/nursing_bringup
+[6.053s] copying /home/jetson/nursing_yee/build/nursing_bringup/build/lib/nursing_bringup/__init__.py -> /home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages/nursing_bringup
+[6.055s] byte-compiling /home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages/nursing_bringup/__init__.py to __init__.cpython-38.pyc
+[6.056s] running install_data
+[6.057s] creating /home/jetson/nursing_yee/install/nursing_bringup/share/ament_index
+[6.058s] creating /home/jetson/nursing_yee/install/nursing_bringup/share/ament_index/resource_index
+[6.058s] creating /home/jetson/nursing_yee/install/nursing_bringup/share/ament_index/resource_index/packages
+[6.058s] copying resource/nursing_bringup -> /home/jetson/nursing_yee/install/nursing_bringup/share/ament_index/resource_index/packages
+[6.059s] copying package.xml -> /home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup
+[6.059s] running install_egg_info
+[6.066s] Copying ../../build/nursing_bringup/nursing_bringup.egg-info to /home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages/nursing_bringup-0.0.0-py3.8.egg-info
+[6.070s] running install_scripts
+[6.156s] writing list of installed files to '/home/jetson/nursing_yee/build/nursing_bringup/install.log'
+[6.263s] Invoked command in '/home/jetson/nursing_yee/src/nursing_bringup' returned '0': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_bringup build --build-base /home/jetson/nursing_yee/build/nursing_bringup/build install --record /home/jetson/nursing_yee/build/nursing_bringup/install.log --install-scripts $base/lib/nursing_bringup --single-version-externally-managed install_data

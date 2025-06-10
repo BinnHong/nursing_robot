@@ -1,0 +1,23 @@
+[4.611s] Invoking command in '/home/jetson/nursing_yee/src/nursing_nfc_reader': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_nfc_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_nfc_reader build --build-base /home/jetson/nursing_yee/build/nursing_nfc_reader/build install --record /home/jetson/nursing_yee/build/nursing_nfc_reader/install.log --install-scripts $base/lib/nursing_nfc_reader --single-version-externally-managed install_data
+[5.742s] /usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.742s]   warnings.warn(
+[5.889s] running egg_info
+[5.891s] writing ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/PKG-INFO
+[5.892s] writing dependency_links to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/dependency_links.txt
+[5.893s] writing entry points to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/entry_points.txt
+[5.894s] writing requirements to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/requires.txt
+[5.894s] writing top-level names to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/top_level.txt
+[5.910s] reading manifest file '../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt'
+[5.915s] writing manifest file '../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt'
+[5.917s] running build
+[5.917s] running build_py
+[5.919s] running install
+[5.920s] running install_lib
+[5.925s] running install_data
+[5.926s] running install_egg_info
+[5.934s] removing '/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader-0.0.0-py3.8.egg-info' (and everything under it)
+[5.935s] Copying ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info to /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader-0.0.0-py3.8.egg-info
+[5.941s] running install_scripts
+[6.022s] Installing nfc_reader script to /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/nursing_nfc_reader
+[6.024s] writing list of installed files to '/home/jetson/nursing_yee/build/nursing_nfc_reader/install.log'
+[6.137s] Invoked command in '/home/jetson/nursing_yee/src/nursing_nfc_reader' returned '0': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_nfc_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_nfc_reader build --build-base /home/jetson/nursing_yee/build/nursing_nfc_reader/build install --record /home/jetson/nursing_yee/build/nursing_nfc_reader/install.log --install-scripts $base/lib/nursing_nfc_reader --single-version-externally-managed install_data

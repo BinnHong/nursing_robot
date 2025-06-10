@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000944] (nursing_bringup) JobQueued: {'identifier': 'nursing_bringup', 'dependencies': OrderedDict()}
+[0.001340] (nursing_nfc_reader) JobQueued: {'identifier': 'nursing_nfc_reader', 'dependencies': OrderedDict()}
+[0.002205] (nursing_bringup) JobStarted: {'identifier': 'nursing_bringup'}
+[0.036597] (nursing_nfc_reader) JobStarted: {'identifier': 'nursing_nfc_reader'}
+[0.098788] (-) TimerEvent: {}
+[0.199659] (-) TimerEvent: {}
+[0.300681] (-) TimerEvent: {}
+[0.401747] (-) TimerEvent: {}
+[0.502718] (-) TimerEvent: {}
+[0.603638] (-) TimerEvent: {}
+[0.704545] (-) TimerEvent: {}
+[0.805203] (-) TimerEvent: {}
+[0.906133] (-) TimerEvent: {}
+[1.007078] (-) TimerEvent: {}
+[1.107813] (-) TimerEvent: {}
+[1.208897] (-) TimerEvent: {}
+[1.310248] (-) TimerEvent: {}
+[1.411154] (-) TimerEvent: {}
+[1.512460] (-) TimerEvent: {}
+[1.613095] (-) TimerEvent: {}
+[1.713842] (-) TimerEvent: {}
+[1.814463] (-) TimerEvent: {}
+[1.915084] (-) TimerEvent: {}
+[2.015726] (-) TimerEvent: {}
+[2.116576] (-) TimerEvent: {}
+[2.217241] (-) TimerEvent: {}
+[2.318041] (-) TimerEvent: {}
+[2.418856] (-) TimerEvent: {}
+[2.519953] (-) TimerEvent: {}
+[2.620652] (-) TimerEvent: {}
+[2.721375] (-) TimerEvent: {}
+[2.822066] (-) TimerEvent: {}
+[2.923113] (-) TimerEvent: {}
+[3.025066] (-) TimerEvent: {}
+[3.125737] (-) TimerEvent: {}
+[3.226406] (-) TimerEvent: {}
+[3.327781] (-) TimerEvent: {}
+[3.428593] (-) TimerEvent: {}
+[3.529572] (-) TimerEvent: {}
+[3.631550] (-) TimerEvent: {}
+[3.734550] (-) TimerEvent: {}
+[3.835228] (-) TimerEvent: {}
+[3.935909] (-) TimerEvent: {}
+[4.036944] (-) TimerEvent: {}
+[4.125045] (nursing_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nursing_bringup', 'build', '--build-base', '/home/jetson/nursing_yee/build/nursing_bringup/build', 'install', '--record', '/home/jetson/nursing_yee/build/nursing_bringup/install.log', '--install-scripts', '$base/lib/nursing_bringup', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/nursing_yee/src/nursing_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '220.94.221.18 55349 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/nursing_yee', 'TERM_PROGRAM_VERSION': '0.49.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6672e9f8-1ad4-445d-8cac-1a5ff21bd5a3.sock', 'JETSON_L4T': '32.6.1', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420923023298', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/usr/local/cuda/bin:/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/bin/remote-cli:/home/jetson/.local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b23a62b867.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/nursing_yee/build/nursing_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '220.94.221.18 55349 14.51.64.124 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'JETSON_P_NUMBER': 'p3448-0000', 'PYTHONPATH': '/home/jetson/nursing_yee/build/nursing_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages:'}, 'shell': False}
+[4.137335] (-) TimerEvent: {}
+[4.146913] (nursing_nfc_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nursing_nfc_reader', 'build', '--build-base', '/home/jetson/nursing_yee/build/nursing_nfc_reader/build', 'install', '--record', '/home/jetson/nursing_yee/build/nursing_nfc_reader/install.log', '--install-scripts', '$base/lib/nursing_nfc_reader', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/nursing_yee/src/nursing_nfc_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '220.94.221.18 55349 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/nursing_yee', 'TERM_PROGRAM_VERSION': '0.49.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6672e9f8-1ad4-445d-8cac-1a5ff21bd5a3.sock', 'JETSON_L4T': '32.6.1', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420923023298', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/usr/local/cuda/bin:/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/bin/remote-cli:/home/jetson/.local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b23a62b867.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/nursing_yee/build/nursing_nfc_reader', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '220.94.221.18 55349 14.51.64.124 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'JETSON_P_NUMBER': 'p3448-0000', 'PYTHONPATH': '/home/jetson/nursing_yee/build/nursing_nfc_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages:'}, 'shell': False}
+[4.237446] (-) TimerEvent: {}
+[4.338456] (-) TimerEvent: {}
+[4.439377] (-) TimerEvent: {}
+[4.540051] (-) TimerEvent: {}
+[4.640724] (-) TimerEvent: {}
+[4.741795] (-) TimerEvent: {}
+[4.842537] (-) TimerEvent: {}
+[4.943474] (-) TimerEvent: {}
+[5.044437] (-) TimerEvent: {}
+[5.140382] (nursing_bringup) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.141095] (nursing_bringup) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.144567] (-) TimerEvent: {}
+[5.164155] (nursing_nfc_reader) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.164830] (nursing_nfc_reader) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.244732] (-) TimerEvent: {}
+[5.279240] (nursing_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[5.281793] (nursing_bringup) StdoutLine: {'line': b'writing ../../build/nursing_bringup/nursing_bringup.egg-info/PKG-INFO\n'}
+[5.284645] (nursing_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/nursing_bringup/nursing_bringup.egg-info/dependency_links.txt\n'}
+[5.286015] (nursing_bringup) StdoutLine: {'line': b'writing entry points to ../../build/nursing_bringup/nursing_bringup.egg-info/entry_points.txt\n'}
+[5.286533] (nursing_bringup) StdoutLine: {'line': b'writing requirements to ../../build/nursing_bringup/nursing_bringup.egg-info/requires.txt\n'}
+[5.286944] (nursing_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/nursing_bringup/nursing_bringup.egg-info/top_level.txt\n'}
+[5.296482] (nursing_bringup) StdoutLine: {'line': b"reading manifest file '../../build/nursing_bringup/nursing_bringup.egg-info/SOURCES.txt'\n"}
+[5.300397] (nursing_bringup) StdoutLine: {'line': b"writing manifest file '../../build/nursing_bringup/nursing_bringup.egg-info/SOURCES.txt'\n"}
+[5.301230] (nursing_bringup) StdoutLine: {'line': b'running build\n'}
+[5.301926] (nursing_bringup) StdoutLine: {'line': b'running build_py\n'}
+[5.302357] (nursing_bringup) StdoutLine: {'line': b'running install\n'}
+[5.304783] (nursing_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[5.309803] (nursing_bringup) StdoutLine: {'line': b'running install_data\n'}
+[5.310613] (nursing_bringup) StdoutLine: {'line': b'copying launch/nursing_bringup.launch.py -> /home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/launch\n'}
+[5.311429] (nursing_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.311872] (nursing_nfc_reader) StdoutLine: {'line': b'running egg_info\n'}
+[5.318004] (nursing_nfc_reader) StdoutLine: {'line': b'writing ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/PKG-INFO\n'}
+[5.319516] (nursing_nfc_reader) StdoutLine: {'line': b'writing dependency_links to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/dependency_links.txt\n'}
+[5.319977] (nursing_nfc_reader) StdoutLine: {'line': b'writing entry points to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/entry_points.txt\n'}
+[5.320375] (nursing_nfc_reader) StdoutLine: {'line': b'writing requirements to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/requires.txt\n'}
+[5.320761] (nursing_nfc_reader) StdoutLine: {'line': b'writing top-level names to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/top_level.txt\n'}
+[5.321146] (nursing_bringup) StdoutLine: {'line': b"removing '/home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages/nursing_bringup-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.321653] (nursing_bringup) StdoutLine: {'line': b'Copying ../../build/nursing_bringup/nursing_bringup.egg-info to /home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages/nursing_bringup-0.0.0-py3.8.egg-info\n'}
+[5.323011] (nursing_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[5.331920] (nursing_nfc_reader) StdoutLine: {'line': b"reading manifest file '../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt'\n"}
+[5.334320] (nursing_nfc_reader) StdoutLine: {'line': b"writing manifest file '../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt'\n"}
+[5.335123] (nursing_nfc_reader) StdoutLine: {'line': b'running build\n'}
+[5.335595] (nursing_nfc_reader) StdoutLine: {'line': b'running build_py\n'}
+[5.336201] (nursing_nfc_reader) StdoutLine: {'line': b'running install\n'}
+[5.339666] (nursing_nfc_reader) StdoutLine: {'line': b'running install_lib\n'}
+[5.344887] (-) TimerEvent: {}
+[5.345783] (nursing_nfc_reader) StdoutLine: {'line': b'running install_data\n'}
+[5.346455] (nursing_nfc_reader) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.352689] (nursing_nfc_reader) StdoutLine: {'line': b"removing '/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.353995] (nursing_nfc_reader) StdoutLine: {'line': b'Copying ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info to /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader-0.0.0-py3.8.egg-info\n'}
+[5.357824] (nursing_nfc_reader) StdoutLine: {'line': b'running install_scripts\n'}
+[5.399600] (nursing_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/nursing_yee/build/nursing_bringup/install.log'\n"}
+[5.440844] (nursing_nfc_reader) StdoutLine: {'line': b'Installing nfc_reader script to /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/nursing_nfc_reader\n'}
+[5.442696] (nursing_nfc_reader) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/nursing_yee/build/nursing_nfc_reader/install.log'\n"}
+[5.445064] (-) TimerEvent: {}
+[5.503312] (nursing_bringup) CommandEnded: {'returncode': 0}
+[5.546833] (-) TimerEvent: {}
+[5.556454] (nursing_bringup) JobEnded: {'identifier': 'nursing_bringup', 'rc': 0}
+[5.561960] (nursing_nfc_reader) CommandEnded: {'returncode': 0}
+[5.587600] (nursing_nfc_reader) JobEnded: {'identifier': 'nursing_nfc_reader', 'rc': 0}
+[5.590552] (-) EventReactorShutdown: {}

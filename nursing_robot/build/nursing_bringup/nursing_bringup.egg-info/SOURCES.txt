@@ -1,0 +1,17 @@
+README.md
+package.xml
+setup.cfg
+setup.py
+../../build/nursing_bringup/nursing_bringup.egg-info/PKG-INFO
+../../build/nursing_bringup/nursing_bringup.egg-info/SOURCES.txt
+../../build/nursing_bringup/nursing_bringup.egg-info/dependency_links.txt
+../../build/nursing_bringup/nursing_bringup.egg-info/entry_points.txt
+../../build/nursing_bringup/nursing_bringup.egg-info/requires.txt
+../../build/nursing_bringup/nursing_bringup.egg-info/top_level.txt
+../../build/nursing_bringup/nursing_bringup.egg-info/zip-safe
+launch/nursing_bringup.launch.py
+nursing_bringup/__init__.py
+resource/nursing_bringup
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

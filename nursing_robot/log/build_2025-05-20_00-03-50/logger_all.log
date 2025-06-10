@@ -1,0 +1,177 @@
+[0.954s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.954s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8879db50>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8879db50>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f886db3d0>)
+[1.933s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.934s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.935s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.935s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/nursing_yee'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.025s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.026s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.029s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extension 'ignore'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extension 'ignore_ament_install'
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extensions ['colcon_pkg']
+[2.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extension 'colcon_pkg'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extensions ['colcon_meta']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extension 'colcon_meta'
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extensions ['ros']
+[2.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_bringup) by extension 'ros'
+[2.041s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nursing_bringup' with type 'ros.ament_python' and name 'nursing_bringup'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extensions ['ignore', 'ignore_ament_install']
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extension 'ignore'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extension 'ignore_ament_install'
+[2.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extensions ['colcon_pkg']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extension 'colcon_pkg'
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extensions ['colcon_meta']
+[2.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extension 'colcon_meta'
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extensions ['ros']
+[2.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/nursing_nfc_reader) by extension 'ros'
+[2.048s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nursing_nfc_reader' with type 'ros.ament_python' and name 'nursing_nfc_reader'
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.143s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jetson/nursing_yee/install
+[2.150s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[2.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.497s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'cmake_args' from command line to 'None'
+[2.497s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'cmake_target' from command line to 'None'
+[2.497s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.498s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.498s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.498s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.498s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.498s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.498s] Level 5:colcon.colcon_core.verb:set package 'nursing_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.499s] DEBUG:colcon.colcon_core.verb:Building package 'nursing_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/nursing_yee/build/nursing_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/nursing_yee/install/nursing_bringup', 'merge_install': False, 'path': '/home/jetson/nursing_yee/src/nursing_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.500s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'cmake_args' from command line to 'None'
+[2.501s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'cmake_target' from command line to 'None'
+[2.501s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.501s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'cmake_clean_cache' from command line to 'False'
+[2.501s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'cmake_clean_first' from command line to 'False'
+[2.501s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'cmake_force_configure' from command line to 'False'
+[2.501s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'ament_cmake_args' from command line to 'None'
+[2.501s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'catkin_cmake_args' from command line to 'None'
+[2.502s] Level 5:colcon.colcon_core.verb:set package 'nursing_nfc_reader' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.502s] DEBUG:colcon.colcon_core.verb:Building package 'nursing_nfc_reader' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/nursing_yee/build/nursing_nfc_reader', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/nursing_yee/install/nursing_nfc_reader', 'merge_install': False, 'path': '/home/jetson/nursing_yee/src/nursing_nfc_reader', 'symlink_install': False, 'test_result_base': None}
+[2.502s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.506s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.507s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/nursing_yee/src/nursing_bringup' with build type 'ament_python'
+[2.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('nursing_bringup', 'ament_prefix_path')
+[2.517s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/hook/ament_prefix_path.ps1'
+[2.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/hook/ament_prefix_path.dsv'
+[2.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/hook/ament_prefix_path.sh'
+[2.526s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.526s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.544s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/nursing_yee/src/nursing_nfc_reader' with build type 'ament_python'
+[2.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('nursing_nfc_reader', 'ament_prefix_path')
+[2.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/hook/ament_prefix_path.ps1'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/hook/ament_prefix_path.dsv'
+[2.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/hook/ament_prefix_path.sh'
+[2.556s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.556s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.898s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/nursing_yee/src/nursing_bringup'
+[3.899s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.235s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/nursing_yee/src/nursing_nfc_reader'
+[5.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/nursing_yee/src/nursing_nfc_reader': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_nfc_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_nfc_reader build --build-base /home/jetson/nursing_yee/build/nursing_nfc_reader/build install --record /home/jetson/nursing_yee/build/nursing_nfc_reader/install.log --install-scripts $base/lib/nursing_nfc_reader --single-version-externally-managed install_data
+[7.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/nursing_yee/src/nursing_bringup': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_bringup build --build-base /home/jetson/nursing_yee/build/nursing_bringup/build install --record /home/jetson/nursing_yee/build/nursing_bringup/install.log --install-scripts $base/lib/nursing_bringup --single-version-externally-managed install_data
+[8.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/nursing_yee/src/nursing_nfc_reader' returned '0': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_nfc_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_nfc_reader build --build-base /home/jetson/nursing_yee/build/nursing_nfc_reader/build install --record /home/jetson/nursing_yee/build/nursing_nfc_reader/install.log --install-scripts $base/lib/nursing_nfc_reader --single-version-externally-managed install_data
+[8.701s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_nfc_reader' for CMake module files
+[8.704s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_nfc_reader' for CMake config files
+[8.707s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_nfc_reader/lib'
+[8.708s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_nfc_reader/bin'
+[8.709s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/pkgconfig/nursing_nfc_reader.pc'
+[8.710s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages'
+[8.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('nursing_nfc_reader', 'pythonpath')
+[8.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/hook/pythonpath.ps1'
+[8.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/hook/pythonpath.dsv'
+[8.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/hook/pythonpath.sh'
+[8.718s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_nfc_reader/bin'
+[8.719s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nursing_nfc_reader)
+[8.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/package.ps1'
+[8.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/package.dsv'
+[8.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/package.sh'
+[8.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/package.bash'
+[8.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader/package.zsh'
+[8.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/nursing_yee/install/nursing_nfc_reader/share/colcon-core/packages/nursing_nfc_reader)
+[8.769s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_bringup' for CMake module files
+[8.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/nursing_yee/src/nursing_bringup' returned '0': PYTHONPATH=/home/jetson/nursing_yee/build/nursing_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nursing_bringup build --build-base /home/jetson/nursing_yee/build/nursing_bringup/build install --record /home/jetson/nursing_yee/build/nursing_bringup/install.log --install-scripts $base/lib/nursing_bringup --single-version-externally-managed install_data
+[8.772s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_bringup' for CMake config files
+[8.774s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_bringup/lib'
+[8.774s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_bringup/bin'
+[8.775s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_bringup/lib/pkgconfig/nursing_bringup.pc'
+[8.776s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_bringup/lib/python3.8/site-packages'
+[8.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('nursing_bringup', 'pythonpath')
+[8.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/hook/pythonpath.ps1'
+[8.778s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/hook/pythonpath.dsv'
+[8.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/hook/pythonpath.sh'
+[8.782s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/nursing_yee/install/nursing_bringup/bin'
+[8.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nursing_bringup)
+[8.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/package.ps1'
+[8.785s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/package.dsv'
+[8.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/package.sh'
+[8.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/package.bash'
+[8.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/nursing_yee/install/nursing_bringup/share/nursing_bringup/package.zsh'
+[8.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/nursing_yee/install/nursing_bringup/share/colcon-core/packages/nursing_bringup)
+[8.793s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.794s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.815s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.816s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.816s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.871s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/nursing_yee/install/local_setup.ps1'
+[8.877s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/nursing_yee/install/_local_setup_util_ps1.py'
+[8.884s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/nursing_yee/install/setup.ps1'
+[8.888s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/nursing_yee/install/local_setup.sh'
+[8.891s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/nursing_yee/install/_local_setup_util_sh.py'
+[8.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/nursing_yee/install/setup.sh'
+[8.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/nursing_yee/install/local_setup.bash'
+[8.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/nursing_yee/install/setup.bash'
+[8.907s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/nursing_yee/install/local_setup.zsh'
+[8.909s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/nursing_yee/install/setup.zsh'

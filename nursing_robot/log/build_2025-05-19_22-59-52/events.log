@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000535] (nursing_nfc_reader) JobQueued: {'identifier': 'nursing_nfc_reader', 'dependencies': OrderedDict()}
+[0.002305] (nursing_nfc_reader) JobStarted: {'identifier': 'nursing_nfc_reader'}
+[0.099304] (-) TimerEvent: {}
+[0.200132] (-) TimerEvent: {}
+[0.300722] (-) TimerEvent: {}
+[0.401309] (-) TimerEvent: {}
+[0.501881] (-) TimerEvent: {}
+[0.602779] (-) TimerEvent: {}
+[0.703345] (-) TimerEvent: {}
+[0.803926] (-) TimerEvent: {}
+[0.904488] (-) TimerEvent: {}
+[1.005087] (-) TimerEvent: {}
+[1.105784] (-) TimerEvent: {}
+[1.206545] (-) TimerEvent: {}
+[1.307267] (-) TimerEvent: {}
+[1.407861] (-) TimerEvent: {}
+[1.508620] (-) TimerEvent: {}
+[1.609217] (-) TimerEvent: {}
+[1.709790] (-) TimerEvent: {}
+[1.810666] (-) TimerEvent: {}
+[1.911232] (-) TimerEvent: {}
+[2.011817] (-) TimerEvent: {}
+[2.112399] (-) TimerEvent: {}
+[2.212969] (-) TimerEvent: {}
+[2.313555] (-) TimerEvent: {}
+[2.414148] (-) TimerEvent: {}
+[2.514911] (-) TimerEvent: {}
+[2.615833] (-) TimerEvent: {}
+[2.717881] (-) TimerEvent: {}
+[2.820202] (-) TimerEvent: {}
+[2.920941] (-) TimerEvent: {}
+[3.021593] (-) TimerEvent: {}
+[3.026584] (nursing_nfc_reader) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/nursing_nfc_reader', 'build', '--build-base', '/home/jetson/nursing_yee/build/nursing_nfc_reader/build', 'install', '--record', '/home/jetson/nursing_yee/build/nursing_nfc_reader/install.log', '--install-scripts', '$base/lib/nursing_nfc_reader', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/nursing_yee/src/nursing_nfc_reader', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '220.94.221.18 55349 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/.cursor-server', 'TERM_PROGRAM_VERSION': '0.49.6', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a6240b23-245c-4b8f-8bba-c822e566da15.sock', 'JETSON_L4T': '32.6.1', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420923023298', '_': '/usr/bin/colcon', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'PATH': '/usr/local/cuda/bin:/home/jetson/.cursor-server/cli/servers/Stable-0781e811de386a0c5bcb07ceb259df8ff8246a50/server/bin/remote-cli:/home/jetson/.local/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b23a62b867.sock', 'TERM_PROGRAM': 'vscode', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/nursing_yee/build/nursing_nfc_reader', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '220.94.221.18 55349 14.51.64.124 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'JETSON_P_NUMBER': 'p3448-0000', 'PYTHONPATH': '/home/jetson/nursing_yee/build/nursing_nfc_reader/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages:'}, 'shell': False}
+[3.121810] (-) TimerEvent: {}
+[3.222601] (-) TimerEvent: {}
+[3.323259] (-) TimerEvent: {}
+[3.423904] (-) TimerEvent: {}
+[3.524549] (-) TimerEvent: {}
+[3.625199] (-) TimerEvent: {}
+[3.725846] (-) TimerEvent: {}
+[3.826546] (-) TimerEvent: {}
+[3.927228] (-) TimerEvent: {}
+[3.991192] (nursing_nfc_reader) StderrLine: {'line': b"/usr/local/lib/python3.8/dist-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[3.991966] (nursing_nfc_reader) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.027367] (-) TimerEvent: {}
+[4.116129] (nursing_nfc_reader) StdoutLine: {'line': b'running egg_info\n'}
+[4.118340] (nursing_nfc_reader) StdoutLine: {'line': b'creating ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info\n'}
+[4.118895] (nursing_nfc_reader) StdoutLine: {'line': b'writing ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/PKG-INFO\n'}
+[4.119613] (nursing_nfc_reader) StdoutLine: {'line': b'writing dependency_links to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/dependency_links.txt\n'}
+[4.121294] (nursing_nfc_reader) StdoutLine: {'line': b'writing entry points to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/entry_points.txt\n'}
+[4.121786] (nursing_nfc_reader) StdoutLine: {'line': b'writing requirements to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/requires.txt\n'}
+[4.122185] (nursing_nfc_reader) StdoutLine: {'line': b'writing top-level names to ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/top_level.txt\n'}
+[4.127467] (-) TimerEvent: {}
+[4.131601] (nursing_nfc_reader) StdoutLine: {'line': b"writing manifest file '../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt'\n"}
+[4.138248] (nursing_nfc_reader) StdoutLine: {'line': b"reading manifest file '../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt'\n"}
+[4.141217] (nursing_nfc_reader) StdoutLine: {'line': b"writing manifest file '../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info/SOURCES.txt'\n"}
+[4.141980] (nursing_nfc_reader) StdoutLine: {'line': b'running build\n'}
+[4.142737] (nursing_nfc_reader) StdoutLine: {'line': b'running build_py\n'}
+[4.143166] (nursing_nfc_reader) StdoutLine: {'line': b'creating /home/jetson/nursing_yee/build/nursing_nfc_reader/build\n'}
+[4.143573] (nursing_nfc_reader) StdoutLine: {'line': b'creating /home/jetson/nursing_yee/build/nursing_nfc_reader/build/lib\n'}
+[4.143972] (nursing_nfc_reader) StdoutLine: {'line': b'creating /home/jetson/nursing_yee/build/nursing_nfc_reader/build/lib/nursing_nfc_reader\n'}
+[4.144329] (nursing_nfc_reader) StdoutLine: {'line': b'copying nursing_nfc_reader/nfc_reader.py -> /home/jetson/nursing_yee/build/nursing_nfc_reader/build/lib/nursing_nfc_reader\n'}
+[4.144659] (nursing_nfc_reader) StdoutLine: {'line': b'copying nursing_nfc_reader/__init__.py -> /home/jetson/nursing_yee/build/nursing_nfc_reader/build/lib/nursing_nfc_reader\n'}
+[4.145017] (nursing_nfc_reader) StdoutLine: {'line': b'running install\n'}
+[4.146812] (nursing_nfc_reader) StdoutLine: {'line': b'running install_lib\n'}
+[4.149852] (nursing_nfc_reader) StdoutLine: {'line': b'creating /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader\n'}
+[4.150429] (nursing_nfc_reader) StdoutLine: {'line': b'copying /home/jetson/nursing_yee/build/nursing_nfc_reader/build/lib/nursing_nfc_reader/nfc_reader.py -> /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader\n'}
+[4.150857] (nursing_nfc_reader) StdoutLine: {'line': b'copying /home/jetson/nursing_yee/build/nursing_nfc_reader/build/lib/nursing_nfc_reader/__init__.py -> /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader\n'}
+[4.152395] (nursing_nfc_reader) StdoutLine: {'line': b'byte-compiling /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader/nfc_reader.py to nfc_reader.cpython-38.pyc\n'}
+[4.154547] (nursing_nfc_reader) StdoutLine: {'line': b'byte-compiling /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader/__init__.py to __init__.cpython-38.pyc\n'}
+[4.155118] (nursing_nfc_reader) StdoutLine: {'line': b'running install_data\n'}
+[4.155594] (nursing_nfc_reader) StdoutLine: {'line': b'creating /home/jetson/nursing_yee/install/nursing_nfc_reader/share/ament_index\n'}
+[4.156141] (nursing_nfc_reader) StdoutLine: {'line': b'creating /home/jetson/nursing_yee/install/nursing_nfc_reader/share/ament_index/resource_index\n'}
+[4.156686] (nursing_nfc_reader) StdoutLine: {'line': b'creating /home/jetson/nursing_yee/install/nursing_nfc_reader/share/ament_index/resource_index/packages\n'}
+[4.157099] (nursing_nfc_reader) StdoutLine: {'line': b'copying resource/nursing_nfc_reader -> /home/jetson/nursing_yee/install/nursing_nfc_reader/share/ament_index/resource_index/packages\n'}
+[4.157495] (nursing_nfc_reader) StdoutLine: {'line': b'copying package.xml -> /home/jetson/nursing_yee/install/nursing_nfc_reader/share/nursing_nfc_reader\n'}
+[4.157857] (nursing_nfc_reader) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.162774] (nursing_nfc_reader) StdoutLine: {'line': b'Copying ../../build/nursing_nfc_reader/nursing_nfc_reader.egg-info to /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/python3.8/site-packages/nursing_nfc_reader-0.0.0-py3.8.egg-info\n'}
+[4.166041] (nursing_nfc_reader) StdoutLine: {'line': b'running install_scripts\n'}
+[4.227631] (-) TimerEvent: {}
+[4.236068] (nursing_nfc_reader) StdoutLine: {'line': b'Installing nfc_reader script to /home/jetson/nursing_yee/install/nursing_nfc_reader/lib/nursing_nfc_reader\n'}
+[4.237250] (nursing_nfc_reader) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/nursing_yee/build/nursing_nfc_reader/install.log'\n"}
+[4.327838] (-) TimerEvent: {}
+[4.338692] (nursing_nfc_reader) CommandEnded: {'returncode': 0}
+[4.409867] (nursing_nfc_reader) JobEnded: {'identifier': 'nursing_nfc_reader', 'rc': 0}
+[4.412322] (-) EventReactorShutdown: {}

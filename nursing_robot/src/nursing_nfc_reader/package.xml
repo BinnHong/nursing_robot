@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>nursing_nfc_reader</name>
+  <version>0.1.0</version>
+  <description>PN532 기반 NFC 태그 리더 노드 (서비스 기반)</description>
+
+  <maintainer email="jetson@example.com">Jetson Developer</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
